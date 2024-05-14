@@ -7,6 +7,7 @@ import pickle
 import tensorflow as tf 
 
 
+
 class AttrDict(dict):
     def __getattr__(self, key):
         if key in self:
